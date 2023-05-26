@@ -1,0 +1,50 @@
+img {
+    border-radius: 500px;
+
+}
+
+.seconddiv {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.content {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.buttons button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 100px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,56 @@
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+
+    align-items: center;
+    margin-right: 50px;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colororange {
+    color: #ff9900
+}
+
+.colorwhitelogo {
+    color: white
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    background-color: #ff9900;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+
+}
+ ul :hover{
+    color: blueviolet;
+ }
+ .hover-line::after{
+    content:"";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: yellow;
+    transition:width .3;
+ }
+ .hover-line:hover::after{
+    width: 100%;
+    transition:width.3s;
+ }
